@@ -1,0 +1,26 @@
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    
+}
+
+.titulo-contenido{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.columna50{
+    width: 50%;
+   
+  
+}
+
+.contenedorCard {
+    display: flex;
+    gap: 30px;
+}

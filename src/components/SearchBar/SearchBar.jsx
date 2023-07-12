@@ -7,20 +7,20 @@ const SearchBar = () => {
 
     return (
 
-        <div>
-            <div>
+        <div className={style.contenedor}>
+            <div className={style.logoimg}>
                 <img src={logo} alt="logo"/>
             </div>
-            <div><h2>Comercialización de Insumos y Herramientas para el Sector Agrícola y Pecuario.</h2></div>
+            <div className={style.eslogan}><h2>Comercialización de Insumos y Herramientas para el Sector Agrícola y Pecuario.</h2></div>
             <div className={style.contenedor_bar}>
-                <input  
+                <input 
+                className={style.label} 
                 type='text'
-                placeholder='Buscar personaje'
+                placeholder='Buscar producto'
                 //  onChange={handLeChange}
                 value=""
                 />
-                <button className={style.btn} >
-                    Agregar</button>
+                <button className={style.btn} >Buscar</button>
             </div>
 
         </div>

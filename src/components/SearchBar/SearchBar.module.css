@@ -1,8 +1,30 @@
+.contenedor {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.logoimg img{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.eslogan h2 {
+    font-size: 20px;   
+    color:rgb(11, 116, 11);
+    font-weight: 500;
+}
+
 .contenedor_bar {
     position: relative;
     width: 500px;
-    height: 40px;
-    background-color:rgb(92, 84, 84,0.7);
+    height: 50px;
+    margin-right: 10px;
+    background-color:rgb(92, 158, 6);
     display: flex;
     align-items: center;
     align-content: center;
@@ -12,8 +34,13 @@
     }
 
 .btn {
-    width: 150px;
-    background-color:rgb(22, 223, 22);
+    width: 100px;
+    background-color:rgb(9, 231, 9) ;
     color:rgb(243, 240, 240);
 
+}
+
+.label {
+    height: 20px;
+    margin-right: 10px;
 }
